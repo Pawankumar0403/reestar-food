@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    margin: 10px;
+}
+
+.navbar__home {
+    color: yellowgreen;
+}
+
+.card__one,
+.card__two,
+.card__three,
+.card__four {
+    display: inline-block;
+    height: 400px;
+    width: 200px;
+    text-align: center;
+    border: solid black 2px;
+    margin: 2px;
+
+}
+
+.card {
+    text-align: center;
+}
+
+.card button {
+    background-color: black;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    margin-top: 5px;
+}
+
+.contact {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.contact table {
+    text-align: center;
+    justify-content: center;
+}
+
+.contact button {
+    background-color: cadetblue;
+    color: white;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: cornflowerblue;
+    color: crimson;
+    transition: 0.3s ease-in-out;
+}
+
+.details{
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+}
